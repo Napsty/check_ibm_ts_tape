@@ -88,7 +88,7 @@ if ( $model eq "ts3100" ) {
         $oid_faultdesc     = "$oid_base.3.1.1.24.1";
         $oid_cleanstate    = "$oid_base.3.2.1.2"; 
 }
-if ( $model eq "ts3100" ) {
+if ( $model eq "ts3200" ) {
 	$oid_base             = '.1.3.6.1.4.1.2.6.211';		#unique OID for ts3200
         $oid_hostname      = ".1.3.6.1.2.1.1.5.0";
         $oid_uptime        = ".1.3.6.1.2.1.1.3.0";
